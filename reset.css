@@ -1,0 +1,20 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+body{
+    
+    line-height: 1;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+input::-moz-input-placeholder{
+    color: #e65d5d;
+}
+input::-webkit-input-placeholder{
+    color: #e65d5d;
+}

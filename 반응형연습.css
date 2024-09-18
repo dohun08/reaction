@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    order: 1;
+    position: relative;
+    width: 100%;
+    justify-content: end;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+    width: 100%;
+}
+#logo{
+   width: 12.5%;
+   height: 142px;
+   background-color: red;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+nav{
+    width: 87.5%;
+    background-color: red;
+    min-height: 80px;
+}
+.slider_section{
+    order: 3;
+    width: 50%;
+    background-color: skyblue;
+}
+.gallery_section{
+    order: 4;
+    width: 27.0833333333333%;
+    height: 440px;
+    background-color: #f8de73;
+}
+.rankup_section{
+    order: 5;
+    width: 22.91666666666666%;
+    background-color: #00d2a5;
+}
+.latest_post_section{
+    order: 6;
+    width: 30%;
+    background-color: #9cabe4;
+}
+.popular_post_section{
+    order: 7;
+    width: 30%;
+    background-color: #d76817;
+}
+.banner_section{
+    order: 8;
+    width: 22.916666666666%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.banner_section div{
+    flex: 1 1 0;
+}
+.banner_box1_section{
+    background-color: #0175bb;
+}
+.banner_box2_section{
+    background-color: #1261c9;
+}
+.social_section{
+    order: 9;
+    width: 17.083333333333%;
+    height: 200px;
+    background-color: #fe6eda;
+}
+footer{
+    order: 10;
+    background-color: black;
+    width: 100%;
+    height: 44px;
+}
